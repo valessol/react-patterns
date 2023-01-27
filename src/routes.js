@@ -1,13 +1,13 @@
-import {CustomHookPage} from './custom-hook';
-import {HocPage} from './hoc';
-import {ExtensibleStylesPage} from './extensible-styles';
-import {CompoundComponentPage} from './compound-component';
-import {RenderPropsPage} from './render-props';
-import {ControlPropsPage} from './control-props';
-import {PropsGettersPage} from './props-getters';
-import {StateInitializerPage} from './state-initializer';
-import {StateReducerPage} from './state-reducer';
-import {WelcomePage} from './components/welcome-page';
+import {CustomHookPage} from './custom-hook/index.js';
+import {HocPage} from './hoc/index.js';
+import {ExtensibleStylesPage} from './extensible-styles/index.js';
+import {CompoundComponentPage} from './compound-component/index.js';
+import {RenderPropsPage} from './render-props/index.js';
+import {ControlPropsPage} from './control-props/index.js';
+import {PropsGettersPage} from './props-getters/index.js';
+import {StateInitializerPage} from './state-initializer/index.js';
+import {StateReducerPage} from './state-reducer/index.js';
+import {WelcomePage} from './components/welcome-page.js';
 
 export const routes = [
   {

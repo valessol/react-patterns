@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {Button} from './normal-button';
-import {CustomButton} from './custom-button';
+import {Button} from './normal-button.js';
+import {CustomButton} from './custom-button.js';
 
 export const ExtensibleStylesPage = () => (
   <>

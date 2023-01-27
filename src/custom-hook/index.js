@@ -1,3 +1,3 @@
-import {CustomHookPage} from './components/custom-hook-page';
+import {CustomHookPage} from './components/custom-hook-page.js';
 
 export {CustomHookPage};

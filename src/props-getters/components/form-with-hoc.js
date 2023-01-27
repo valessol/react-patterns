@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-
-import {withControlledForm} from '../hocs/with-controlled-form';
+import {withControlledForm} from '../hocs/with-controlled-form.js';
 
 const Form = ({formValues, getInputProps, handleSubmit, onSubmit}) => {
   return (

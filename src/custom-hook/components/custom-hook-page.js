@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {NormalDevelopero} from './normal-developero';
-import {CustomHookDevelopero} from './custom-hook-developero';
+import {NormalDevelopero} from './normal-developero.js';
+import {CustomHookDevelopero} from './custom-hook-developero.js';
 
 export const CustomHookPage = () => (
   <>

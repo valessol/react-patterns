@@ -1,4 +1,4 @@
-import {useControlledForm} from '../hooks/use-controlled-form';
+import {useControlledForm} from '../hooks/use-controlled-form.js';
 
 export const MyForm = () => {
   const {formValues, handleChange, handleSubmit, resetForm} = useControlledForm(

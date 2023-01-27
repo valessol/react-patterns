@@ -1,3 +1,3 @@
-import {CompoundComponentPage} from './components/compound-component-page';
+import {CompoundComponentPage} from './components/compound-component-page.js';
 
 export {CompoundComponentPage};

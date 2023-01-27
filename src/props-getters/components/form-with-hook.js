@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-
-import {useControlledForm} from '../hooks/useControlledForm';
+import {useControlledForm} from '../hooks/useControlledForm.js';
 
 export const FormWithHook = ({onSubmit}) => {
   const {formValues, getInputProps, handleSubmit} = useControlledForm({

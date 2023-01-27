@@ -1,6 +1,6 @@
 import React from 'react';
-import {NormalForm} from './normal-form';
-import {MyFormAControlled} from './form-with-hoc';
+import {NormalForm} from './normal-form.js';
+import {MyFormAControlled} from './form-with-hoc.js';
 
 export const HocPage = () => {
   const handleNormalSubmit = data => alert(data);

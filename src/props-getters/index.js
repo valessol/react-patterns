@@ -1,3 +1,3 @@
-import {PropsGettersPage} from './components/props-getters-page';
+import {PropsGettersPage} from './components/props-getters-page.js';
 
 export {PropsGettersPage};

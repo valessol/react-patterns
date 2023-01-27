@@ -1,7 +1,6 @@
 import React from 'react';
-
-import {Todo} from './normal-todo';
-import {FinalTodo} from './final-todo';
+import {Todo} from './normal-todo.js';
+import {FinalTodo} from './final-todo.js';
 
 export const CompoundComponentPage = () => (
   <>

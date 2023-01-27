@@ -1,7 +1,6 @@
 import React from 'react';
-
-import {Player} from './player';
-import {PlayerReducer} from './player-reducer';
+import {Player} from './player.js';
+import {PlayerReducer} from './player-reducer.js';
 
 export const StateReducerPage = () => (
   <>

@@ -1,6 +1,5 @@
 import {useState} from 'react';
-
-import {usePlayer} from '../hooks/use-player';
+import {usePlayer} from '../hooks/use-player.js';
 
 const LIMIT_TIMES = 5;
 

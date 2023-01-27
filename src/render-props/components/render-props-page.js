@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-
-import {ErrorBoundary} from './error-boundary';
-import {FinalErrorBoundary} from './final-error-boundary';
+import {ErrorBoundary} from './error-boundary.js';
+import {FinalErrorBoundary} from './final-error-boundary.js';
 
 const MyBug = () => {
   const [isError, setIsError] = useState(false);

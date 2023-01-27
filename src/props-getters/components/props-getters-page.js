@@ -1,9 +1,9 @@
 import React from 'react';
 
-import {FormWithRenderProps} from './form-with-render-props';
-import {FinalFormWithRenderProps} from './final-with-render-props';
-import {FormWithHoc} from './form-with-hoc';
-import {FormWithHook} from './form-with-hook';
+import {FormWithRenderProps} from './form-with-render-props.js';
+import {FinalFormWithRenderProps} from './final-with-render-props.js';
+import {FormWithHoc} from './form-with-hoc.js';
+import {FormWithHook} from './form-with-hook.js';
 
 export const PropsGettersPage = () => {
   const onSubmit = values => alert(JSON.stringify(values));

@@ -1,10 +1,9 @@
 import {useState} from 'react';
-
 import {
   usePlayerReducer,
   actionTypes,
   playerReducer,
-} from '../hooks/use-player-reducer';
+} from '../hooks/use-player-reducer.js';
 
 const LIMIT_TIMES = 5;
 

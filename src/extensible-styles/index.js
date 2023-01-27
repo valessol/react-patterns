@@ -1,3 +1,3 @@
-import {ExtensibleStylesPage} from './components/extensible-styles-page';
+import {ExtensibleStylesPage} from './components/extensible-styles-page.js';
 
 export {ExtensibleStylesPage};

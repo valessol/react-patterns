@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
-import {LikeButton} from './like-button';
-import {FinalLikeButton} from './final-like-button';
+import {LikeButton} from './like-button.js';
+import {FinalLikeButton} from './final-like-button.js';
 
 export const ControlPropsPage = () => {
   const [counter, setCounter] = useState(0);

@@ -1,6 +1,5 @@
 import {useReducer} from 'react';
-
-import {actionTypes} from '../action-types';
+import {actionTypes} from '../action-types.js';
 
 export const playerReducer = (state, action) => {
   if (action.type === actionTypes.TOOGLE_PLAYING) {

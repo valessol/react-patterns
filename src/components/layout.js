@@ -16,7 +16,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import PropTypes from 'prop-types';
 
-import {routes} from '../routes';
+import {routes} from '../routes.js';
 
 const drawerWidth = 240;
 
