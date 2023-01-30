@@ -32,3 +32,5 @@ Los 9 patrones de Diseño en React
    control del componente hijo, debemos igual colocarlo en el padre.
 7. Props getters Utilizar una función para compartir valores como props a otros
    componentes, extendiendo la lógica de esos valores a sus componentes hijos.
+   Es un patrón complemewntario. Generalmente se usa con render props o custom
+   hooks
